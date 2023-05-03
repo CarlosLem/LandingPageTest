@@ -1,0 +1,13 @@
+nav {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav-links{
+    background-color: rgb(199, 149, 88);
+    display: flex;
+    gap:10px;
+}
+
