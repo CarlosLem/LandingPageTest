@@ -1,13 +1,153 @@
+body{
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
 nav {
-    background-color: aqua;
     display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
 .nav-links{
-    background-color: rgb(199, 149, 88);
+    color:#f9faf8;
     display: flex;
-    gap:10px;
+    font-size: 24px;
+    gap: 100px;
 }
 
+.hero-div {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-main-div{
+    width: 35%;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header-background .hero-img{
+    width: 500px;
+}
+
+.sign-up-button{
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-title {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: bolder;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+.second-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .icon{
+    width: 200px;
+
+  }
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.quote{
+    width: 30%;
+    font: italic;
+    font-style: lighter;
+    font-size: 36px;
+    color: #1f2937;
+    padding-top: 50px;
+}
+.author{
+    padding-left: 400px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #1f2937;
+    font-size: 20px;
+    font-style: bolder;
+}
+
+.blue-bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    gap: 40px;
+
+}
+
+.blue-bubble div{
+
+    display: flex;
+    flex-direction: row;
+    background: rgb(0, 119, 255);
+    border-radius: 20px;
+}
+
+.blue-bubble div div{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-div{
+    display: flex;
+    flex-direction: column;
+
+}
